@@ -45,11 +45,8 @@ img.visual {
 }
 
 article {
-    display: inline-block;
-    width: 33%;
-    padding-right: 15px;
-    vertical-align: top;
-}
+padding: 20px;
+ }
 
 article:last-child {
     padding-right: 0px;

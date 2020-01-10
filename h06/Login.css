@@ -1,0 +1,72 @@
+*  {
+    /*border: dotted 1px grey;*/
+    margin: 3px;
+    align-self: center;
+}
+body {
+    font-family: 'Gelasio', serif;
+    font-size: 16px;
+}
+
+div.vormgroep {
+    width: 350px;
+    padding: 8px;
+}
+.text {
+    float: right;
+    width: 220px;
+}
+form {
+    display: grid;
+    grid-template-columns: 15% 35% 10% 40%;
+}
+h1 {
+    grid-column: 1/5;
+    font-size: 30px;
+}
+
+.eten {
+    display: flex;
+    grid-column: 4/5;
+}
+
+.textinput {
+    width: 300px;
+    border: solid 1px cornflowerblue;
+}
+
+.Oogkleur {
+    width: 150px;
+    border: solid 1px cornflowerblue;
+}
+
+.Geboorte {
+    width: 150px;
+    grid-column: 2/5;
+    border: solid 1px cornflowerblue;
+}
+
+.Geboortedatum {
+  grid-column: 1;
+}
+
+.Omscrijving {
+    width: 500px;
+    border: solid 1px cornflowerblue;
+   height: 100px;
+    grid-column: 1/5;
+}
+
+.Button1 {
+    width: 150px;
+    grid-column: 4/5;
+    grid-row: 9/10;
+    border: solid 1px cornflowerblue;
+}
+.Button2 {
+    width: 150px;
+    grid-column: 3/4;
+    grid-row: 9/10;
+    border: solid 1px cornflowerblue;
+}
+
